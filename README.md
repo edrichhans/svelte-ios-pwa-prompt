@@ -4,6 +4,8 @@ Svelte port of [react-ios-pwa-prompt](https://github.com/chrisdancee/react-ios-p
 
 > Polyfilling PWAs for iOS
 
+https://github.com/edrichhans/svelte-ios-pwa-prompt/assets/13763624/cc44461d-97ac-4ec4-9b5a-4bd7f05fecb5
+
 <hr>
 
 ## Features
