@@ -1,5 +1,5 @@
 <script lang="ts">
-	import PWAPrompt from '../components/pwa-prompt.svelte';
+	import PWAPrompt from '../lib/components/pwa-prompt.svelte';
 
 	export let timesToShow = 1,
 		promptOnVisit = 1,
