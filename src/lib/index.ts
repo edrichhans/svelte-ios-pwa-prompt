@@ -1,3 +1,3 @@
-import PWAPrompt from './components/pwa-prompt.svelte';
+import PWAPrompt from './index.svelte';
 
 export default PWAPrompt;
