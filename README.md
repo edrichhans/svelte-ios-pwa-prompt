@@ -4,7 +4,7 @@ Svelte port of [react-ios-pwa-prompt](https://github.com/chrisdancee/react-ios-p
 
 > Polyfilling PWAs for iOS
 
-https://github.com/edrichhans/svelte-ios-pwa-prompt/assets/13763624/cc44461d-97ac-4ec4-9b5a-4bd7f05fecb5
+![svelte-ios-pwa-prompt-demo](https://github.com/edrichhans/svelte-ios-pwa-prompt/assets/13763624/bb3a15c4-9488-45fb-81d0-7467d2813d73)
 
 <hr>
 
@@ -18,7 +18,15 @@ https://github.com/edrichhans/svelte-ios-pwa-prompt/assets/13763624/cc44461d-97a
 
 ## Usage
 
-1. Add `svelte-ios-pwa-prompt` as a dependency using `yarn add react-ios-pwa-prompt`.
+1. Install `svelte-ios-pwa-prompt`
+
+```
+yarn add svelte-ios-pwa-prompt
+```
+
+```
+npm install svelte-ios-pwa-prompt
+```
 
 2. Import into your project:
 
@@ -47,5 +55,10 @@ import PWAPrompt from 'svelte-ios-pwa-prompt'
 - `debug`: pass a boolean to put the prompt into debug mode, showing it on any device at all times. Defaults to `false` (production-mode).
 
 ```
-<PWAPrompt promptOnVisit={1} timesToShow={3} copyClosePrompt="Close" permanentlyHideOnDismiss={false}/>
+<PWAPrompt
+  promptOnVisit={1}
+  timesToShow={3}
+  copyClosePrompt="Close"
+  permanentlyHideOnDismiss={false}
+/>
 ```
