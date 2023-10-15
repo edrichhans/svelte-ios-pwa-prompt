@@ -46,5 +46,22 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"description": "Svelte port of [react-ios-pwa-prompt](https://github.com/chrisdancee/react-ios-pwa-prompt)",
+	"main": "dist/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/edrichhans/svelte-ios-pwa-prompt.git"
+	},
+	"keywords": [
+		"svelte",
+		"ios",
+		"pwa"
+	],
+	"author": "Edrich Chua",
+	"license": "SEE LICENSE IN LICENSE",
+	"bugs": {
+		"url": "https://github.com/edrichhans/svelte-ios-pwa-prompt/issues"
+	},
+	"homepage": "https://github.com/edrichhans/svelte-ios-pwa-prompt#readme"
 }
