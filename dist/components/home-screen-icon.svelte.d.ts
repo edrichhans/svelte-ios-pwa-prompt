@@ -1,7 +1,7 @@
 /** @typedef {typeof __propDef.props}  HomeScreenIconProps */
 /** @typedef {typeof __propDef.events}  HomeScreenIconEvents */
 /** @typedef {typeof __propDef.slots}  HomeScreenIconSlots */
-export default class HomeScreenIcon extends SvelteComponent<{
+export default class HomeScreenIcon extends SvelteComponentTyped<{
     modern?: boolean | undefined;
     classes?: string | undefined;
 }, {
@@ -11,7 +11,7 @@ export default class HomeScreenIcon extends SvelteComponent<{
 export type HomeScreenIconProps = typeof __propDef.props;
 export type HomeScreenIconEvents = typeof __propDef.events;
 export type HomeScreenIconSlots = typeof __propDef.slots;
-import { SvelteComponent } from "svelte";
+import { SvelteComponentTyped } from "svelte";
 declare const __propDef: {
     props: {
         modern?: boolean | undefined;

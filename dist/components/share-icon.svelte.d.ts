@@ -1,7 +1,7 @@
 /** @typedef {typeof __propDef.props}  ShareIconProps */
 /** @typedef {typeof __propDef.events}  ShareIconEvents */
 /** @typedef {typeof __propDef.slots}  ShareIconSlots */
-export default class ShareIcon extends SvelteComponent<{
+export default class ShareIcon extends SvelteComponentTyped<{
     modern?: boolean | undefined;
     classes?: string | undefined;
 }, {
@@ -11,7 +11,7 @@ export default class ShareIcon extends SvelteComponent<{
 export type ShareIconProps = typeof __propDef.props;
 export type ShareIconEvents = typeof __propDef.events;
 export type ShareIconSlots = typeof __propDef.slots;
-import { SvelteComponent } from "svelte";
+import { SvelteComponentTyped } from "svelte";
 declare const __propDef: {
     props: {
         modern?: boolean | undefined;
