@@ -1,5 +1,7 @@
 # svelte-ios-pwa-prompt
 
+[![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/svelte-ios-pwa-prompt)
+
 Svelte port of [react-ios-pwa-prompt](https://github.com/chrisdancee/react-ios-pwa-prompt)
 
 > Polyfilling PWAs for iOS
