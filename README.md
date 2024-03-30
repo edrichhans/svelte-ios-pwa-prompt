@@ -2,7 +2,13 @@
 
 [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/svelte-ios-pwa-prompt)
 
-Svelte port of [react-ios-pwa-prompt](https://github.com/chrisdancee/react-ios-pwa-prompt)
+<a href="https://www.buymeacoffee.com/edrichhans">
+  <img src="https://github.com/edrichhans/svelte-ios-pwa-prompt/assets/13763624/ba5b5648-9d35-4e0b-a6ad-65f2c7ea0a88" width="100">
+  <img src="https://github.com/edrichhans/svelte-ios-pwa-prompt/assets/13763624/83320a1b-7690-4b98-80a6-0d9383a91db9" width="150">
+</a>
+
+
+## Svelte port of [react-ios-pwa-prompt](https://github.com/chrisdancee/react-ios-pwa-prompt)
 
 > Polyfilling PWAs for iOS
 
